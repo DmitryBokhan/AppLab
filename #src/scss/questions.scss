@@ -1,0 +1,84 @@
+.questions {
+   margin: 190px 0px 0px 0px;
+   border-bottom: 1px solid #f4f4f4;
+   padding: 0px 0px 105px 0px;
+
+   &__wrap {
+      width: 945px;
+   }
+
+   &__title {
+      margin: 0 auto;
+      text-align: center;
+   }
+
+   &__title-text {
+      margin: 0 auto;
+      margin-top: 30px;
+      text-align: center;
+      width: 635px;
+   }
+
+   &__spoler {
+      margin: 65px 0px 0px 0px;
+   }
+   &__discriptio {
+      padding: 50px;
+      width: 945px;
+      height: 256px;
+      background-color: #f5f7fa;
+   }
+   &__spoler-discriptio {
+      padding: 50px;
+      width: 945px;
+      height: 256px;
+      background-color: #f5f7fa;
+   }
+
+   &__subtitle {
+   }
+
+   &__text {
+      margin: 35px 0px 0px 0px;
+      width: 815px;
+   }
+
+   &__spoler-item {
+      //display: flex;
+      // justify-content: space-between;
+      // background-color: #f5f7fa;
+      margin: 10px 0px 0px 0px;
+      //padding: 23px 50px;
+   }
+
+   &__spoler-control {
+      padding: 8px 0px 0px 0px;
+      font-family: "fa-solid-900";
+      font-size: 20px;
+      color: #242f51;
+   }
+}
+.list__title {
+   background: #f5f7fa;
+   width: 945px;
+   padding: 25px 40px;
+   text-align: left;
+   cursor: pointer;
+   //line-height: 30px;
+}
+.list__title::after {
+   content: "\002B";
+   float: right;
+   font-size: 30px;
+   font-weight: 200px;
+   color: #242f51;
+}
+.list_active::after {
+   content: "\2212";
+}
+.list__text {
+   background: #f5f7fa;
+   padding: 0px 90px 0px 45px;
+   max-height: 0;
+   overflow: hidden;
+}

@@ -1,0 +1,321 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+@mixin font($font_name, $file_name, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+		font-display: swap;
+		src: url("../fonts/#{$file_name}.woff") format("woff") url("../fonts/#{$file_name}.woff2") format("woff2");
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}
+@import "fonts";
+
+@font-face {
+	font-family: "fa-regular-400";
+	src: url("../fonts/fa-regular-400.woff") format("woff");
+}
+@font-face {
+	font-family: "fa-solid-900";
+	src: url("../fonts/fa-solid-900.woff") format("woff");
+}
+@font-face {
+	font-family: "fa-brands-400";
+	src: url("../fonts/fa-brands-400.woff") format("woff");
+}
+
+.body {
+	font-family: "Poppins", sans-serif;
+}
+//**********heder**********
+.header {
+	height: 150px;
+	padding-top: 90px;
+	box-sizing: border-box;
+
+	&__wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 60px;
+	}
+
+	&__logo {
+		font-size: 30px;
+		color: #242f51;
+		font-weight: 700;
+	}
+	&__menu {
+	}
+}
+.wrap {
+	width: 1170px;
+	margin: 0 auto;
+}
+.text {
+	font-size: 16px;
+	color: #616368;
+	font-weight: 400;
+	line-height: 26px;
+}
+.companies__subtitle {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #242f51;
+}
+.subtitle {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #000;
+}
+.wrap_s {
+	width: 1030px;
+}
+.logo {
+	&__color {
+		color: #fcae61;
+	}
+}
+.menu {
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__items {
+		margin: 0px 40px 0px 0px;
+	}
+
+	&__link {
+		font-family: "Poppins", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #242f51;
+	}
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.button {
+	border-radius: 28.5px;
+	padding: 15px 40px;
+	background: #2500f9;
+	font-weight: 700;
+	color: #fff;
+	border: 1px solid #2500f9;
+	transition: border 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+}
+.button:hover {
+	background-color: transparent;
+	color: #2500f9;
+	border: 1px solid #2500f97a;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 36px;
+	color: #242f51;
+}
+//**********heder END**********
+
+//**********main***************
+.main {
+}
+
+@import "welcome";
+
+.button {
+}
+
+.confity {
+	margin: 0 auto;
+	width: 1600px;
+	position: relative;
+	&__el1 {
+		position: absolute;
+		left: 235px;
+		bottom: 82px;
+	}
+	&__el2 {
+		position: absolute;
+		left: 859px;
+		bottom: 793px;
+	}
+	&__el3 {
+		position: absolute;
+		left: 1320px;
+		bottom: 40px;
+	}
+	&__el4 {
+		position: absolute;
+		left: 30px;
+		bottom: 770px;
+		opacity: 20%;
+	}
+	&__el6 {
+		position: absolute;
+		left: 10px;
+		bottom: 163px;
+		opacity: 20%;
+	}
+	&__el7 {
+		position: absolute;
+		left: 655px;
+		bottom: 205px;
+		opacity: 20%;
+	}
+	&__el8 {
+		position: absolute;
+		left: 400px;
+		bottom: 668px;
+		opacity: 20%;
+	}
+	&__el9 {
+		position: absolute;
+		left: 495px;
+		bottom: 36px;
+	}
+}
+
+.companies {
+	padding: 120px 0px 0px 80px;
+	&__list {
+		margin: 35px 0px 0px 0px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__title {
+		text-align: center;
+	}
+	&__logo {
+	}
+}
+
+.subtitle_big {
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+@import "awesome";
+@import "jackpots";
+
+.red-bg {
+	background: #ffecef;
+}
+.blue-bg {
+	background: #f4f4ff;
+}
+.green-bg {
+	background: #e4ffee;
+}
+
+.red-title {
+	color: #f55767;
+}
+.blue-title {
+	color: #2563ff;
+}
+
+.green-title {
+	color: #40975f;
+}
+
+@import "integration";
+@import "choose";
+@import "built";
+@import "plain";
+@import "satisfaction";
+@import "questions";
+@import "download";
+@import "footer";
+
+//**********main END***********
+
+//**********footer*************
+//**********footer END*************

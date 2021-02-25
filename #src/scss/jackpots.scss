@@ -1,0 +1,62 @@
+.jackpots-smart {
+   display: flex;
+}
+
+.jackpots {
+   margin: 75px 0px 0px 0px;
+   &__wrap {
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__title {
+      line-height: 50px;
+      width: 500px;
+      padding: 0px 60px 0px 0px;
+      border-right: 1px solid #4b4a48;
+   }
+
+   &__text {
+      display: flex;
+      align-items: center;
+      width: 510px;
+      padding: 0px 0px 0px 50px;
+   }
+   &__columns {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__cards {
+   }
+
+   &__cards-info {
+   }
+}
+
+.cards {
+   &__item {
+      margin: 110px 0px 0px 0px;
+      width: 270px;
+   }
+
+   &__item-wrap {
+      width: 88px;
+      height: 88px;
+      background: #eee;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__img {
+   }
+
+   &__info {
+   }
+
+   &__title {
+      margin: 30px 0px 15px 0px;
+   }
+}

@@ -1,0 +1,150 @@
+.satisfaction {
+   margin: 150px 0px 0px 0px;
+   &__wrap {
+      display: flex;
+   }
+
+   &__map {
+      position: relative;
+      margin: 100px 0px 0px -265px;
+   }
+   &__column {
+   }
+   &__bg {
+      width: 823px;
+      height: 502px;
+      opacity: 0.16;
+   }
+
+   &__foto {
+   }
+
+   &__title {
+   }
+   &__title-wrap {
+      width: 480px;
+   }
+
+   &__text {
+      margin: 25px 0px 0px 0px;
+   }
+
+   &__star {
+      margin: 40px 0px 0px 0px;
+      font-family: "fa-solid-900";
+      font-size: 20px;
+      font-weight: 400;
+      color: #ffcc00;
+   }
+
+   &__subtitle {
+      margin: 30px 0px 0px 0px;
+   }
+   &__subtitle-wrap {
+      width: 565px;
+   }
+   &__slide {
+      display: flex;
+      justify-content: space-between;
+      width: 430px;
+   }
+   &__seo {
+      display: flex;
+      margin: 60px 0px 0px 0px;
+      align-items: center;
+   }
+
+   &__seo-name {
+   }
+
+   &__name {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      color: #242f51;
+   }
+
+   &__pisition {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      color: #616368;
+   }
+
+   &__button {
+   }
+
+   &__prev {
+      font-family: "fa-solid-900";
+      font-size: 20px;
+      font-weight: 400;
+      color: #dee1e6;
+      border-radius: 100%;
+      border: 2px solid #eff3f8;
+      padding: 8px;
+   }
+
+   &__separator {
+      height: 25px;
+      border-left: 1px solid #e7e7e7;
+      margin: 0px 10px 0px 10px;
+   }
+
+   &__next {
+      font-family: "fa-solid-900";
+      font-size: 20px;
+      font-weight: 400;
+      color: #2500f9;
+      border-radius: 100%;
+      border: 2px solid #eff3f8;
+      background-color: #eff3f8;
+      padding: 8px;
+   }
+}
+.foto {
+   &_1 {
+      position: absolute;
+      left: 260px;
+      top: -15px;
+   }
+
+   &_2 {
+      position: absolute;
+      left: 40px;
+      top: 88px;
+   }
+
+   &_3 {
+      position: absolute;
+      left: 612px;
+      top: 32px;
+   }
+
+   &_4 {
+      position: absolute;
+      left: 67px;
+      top: 226px;
+   }
+
+   &_5 {
+      position: absolute;
+      left: 288px;
+      top: 175px;
+   }
+
+   &_6 {
+      position: absolute;
+      left: 485px;
+      top: 259px;
+   }
+
+   &_7 {
+      position: absolute;
+      left: 235px;
+      top: 373px;
+   }
+
+   &_8 {
+      margin: 0px 30px 0px 0px;
+   }
+}

@@ -1,0 +1,58 @@
+.built {
+   margin: 180px 0px 0px 0px;
+   &__wrap {
+      display: flex;
+   }
+
+   &__info {
+   }
+
+   &__title {
+      width: 325px;
+   }
+
+   &__text {
+      width: 395px;
+      margin: 30px 0px 0px 0px;
+   }
+   &__cards {
+      width: 265px;
+      margin: 60px 0px 0px 0px;
+   }
+   &__columns {
+      width: 650px;
+   }
+
+   &__cards-info {
+   }
+   &__button {
+      margin: 55px 0px 0px 0px;
+      width: 170px;
+      text-align: center;
+      display: inline-block;
+   }
+   &__images {
+      position: relative;
+   }
+
+   &__bg {
+      position: absolute;
+      z-index: 20;
+      top: 30px;
+      left: 0;
+   }
+
+   &__img {
+      position: absolute;
+      z-index: 22;
+      top: 100px;
+      left: 170px;
+   }
+
+   &__phone {
+      position: absolute;
+      z-index: 21;
+      top: 100px;
+      left: -30px;
+   }
+}

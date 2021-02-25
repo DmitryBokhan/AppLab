@@ -1,0 +1,29 @@
+.integration {
+   margin: 115px 0px 0px 0px;
+   &__wrap {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #f4f4f4;
+      padding: 0px 0px 70px 0px;
+   }
+
+   &__img {
+   }
+
+   &__bg {
+   }
+
+   &__title {
+      width: 420px;
+      margin: 145px 70px 0px 0px;
+   }
+   &__subtitle {
+      margin: 0px 0px 30px 0px;
+   }
+
+   &__button {
+      margin: 40px 0px 0px 0px;
+   }
+   &__text-subtitle {
+   }
+}
