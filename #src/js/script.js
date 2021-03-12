@@ -11,8 +11,6 @@ for (let i = 0; i < button.length; i++) {
       }
       else {
          panel.style.maxHeight = panel.scrollHeight + "px";
-
       }
-
    })
 }

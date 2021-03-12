@@ -1011,7 +1011,7 @@ h6 {
 }
 
 .questions__spoler {
-  margin: 65px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 
 .questions__discriptio {
@@ -1050,6 +1050,7 @@ h6 {
   padding: 25px 40px;
   text-align: left;
   cursor: pointer;
+  margin-top: 0px;
 }
 
 .list__title::after {
@@ -1069,6 +1070,10 @@ h6 {
   padding: 0px 90px 0px 45px;
   max-height: 0;
   overflow: hidden;
+}
+
+.list__text p {
+  padding: 10px 0px 20px 0px;
 }
 
 .download__wrap {

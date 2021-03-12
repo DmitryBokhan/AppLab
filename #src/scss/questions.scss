@@ -20,7 +20,7 @@
    }
 
    &__spoler {
-      margin: 65px 0px 0px 0px;
+      margin: 15px 0px 0px 0px;
    }
    &__discriptio {
       padding: 50px;
@@ -64,6 +64,7 @@
    padding: 25px 40px;
    text-align: left;
    cursor: pointer;
+   margin-top: 0px;
    //line-height: 30px;
 }
 .list__title::after {
@@ -78,7 +79,11 @@
 }
 .list__text {
    background: #f5f7fa;
+
    padding: 0px 90px 0px 45px;
    max-height: 0;
    overflow: hidden;
+   p {
+      padding: 10px 0px 20px 0px;
+   }
 }
